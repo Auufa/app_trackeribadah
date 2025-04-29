@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+## Getting Started
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Prerequisites
+- Node.js
+- npm or yarn
+- Expo CLI
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### Installation
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/Auufa/app_trackeribadah.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Navigate to the project directory:
+```bash
+cd app_trackeribadah
+```
 
-## Learn more
+3. Install dependencies:
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Start the development server:
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Usage
+1. **Add a worship activity**:
+   - Enter the worship title
+   - Set a deadline
+   - Select category (Sunnah or Wajib)
+   - Tap "TAMBAH IBADAH"
 
-## Join the community
+2. **Manage activities**:
+   - Mark as complete by tapping the checkbox
+   - Edit by tapping the edit button (✏️)
+   - Delete by tapping the delete button (🗑️)
 
-Join our community of developers creating universal apps.
+3. **Filter activities**:
+   - Use the filter buttons to view All, Sunnah, or Wajib activities
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Screenshots
+(Add screenshots of your application here)
+
+## Future Enhancements
+- Prayer time notifications
+- Qibla direction finder
+- Quran reading tracker
+- Community sharing features
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- Thanks to Allah for guidance
+- Inspired by the need for better worship tracking tools for Muslims
+
+---
+
+Feel free to contribute to this project by submitting issues or pull requests!
